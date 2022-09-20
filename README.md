@@ -39,7 +39,7 @@ File descriptions are provided below.    <br>
 <code>gsm_2_constructbank</code> converts optimized parameters into actual filters  <br>
 <code>gsm_3_initialize</code> computes reasonable initial values of GSM parameters  <br>
 <code>gsm_4_gsmtraining</code> optimizes GSM parameters for maximum likelihood of observing CIFAR-10 images  <br>
-<code>gsm_5_computecov</code> pre-computing some covariance matrices involving matrix inversion using an arbitrary-precision library  <br>
+<code>gsm_5_computecov</code> pre-computing some matrices using an arbitrary-precision library  <br>
 <code>gsm_6_inference</code> performs inference under GSM and computes posterior means and covariances  <br>
 <code>gsm_7_networkinput</code> converts GSM computations into network inputs and targets  <br><br>
 <code>ssn_1_initialization_targets</code> computes network targets for the small network <br>
@@ -52,3 +52,19 @@ File descriptions are provided below.    <br>
 <code>function_h</code> performs the non-linear input transformation into the SSN  <br>
 <code>function_Tinv</code> computes the matrix of inverse time constants of the SSN  <br>
 <code>main_settings</code> contains all relevant simulation and biological parameters of the model  <br>
+
+#### Citation
+
+```
+@inproceedings{soo-2022-stablessn,
+ author = {Soo, Wayne W.M. and Lengyel, Mate},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {tbd},
+ pages = {tbd},
+ publisher = {Curran Associates, Inc.},
+ title = {Stable Training of Stochastic Stabilized Supralinear Networks by Dynamics-Neutral Growth},
+ url = {tbd},
+ volume = {35},
+ year = {2022}
+}
+```
