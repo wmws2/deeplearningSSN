@@ -30,7 +30,7 @@ Code for the model can be found in <code>mnistmodel</code>. File descriptions ar
   <img src="figures/gsm.png" width="600">
 </p>
 
-Code for the model can be found in <code>samplingmodel</code>. Additionally, the [python version of CIFAR-10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html) should be download and extracted to a folder called <code>./CIFAR-10/</code>. Additionally, some parameters are generated and stored in <code>./parameters/</code>.
+Code for the model can be found in <code>samplingmodel</code>. Additionally, the [python version of CIFAR-10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html) should be download and extracted to a folder called <code>./CIFAR-10/</code>. Some parameters are generated and stored in <code>./parameters/</code>.
 File descriptions are provided below.    <br>
 
 **3.1 Code to be executed**  <br><br>
