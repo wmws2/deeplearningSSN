@@ -12,8 +12,7 @@ Code for the paper [Stable Training of Stochastic Stabilized Supralinear Network
   <img src="figures/mnist.png" width="600">
 </p>
 
-Code for the model can be found in <code>mnistmodel</code>. File descriptions are provided below.  
-
+Code for the model can be found in <code>mnistmodel</code>. File descriptions are provided below.    <br>
 
 **Code to be executed**  <br>
 <code>1_autoencoder</code> compresses MNIST images in order to fit the number of excitatory neurons (set to 50 by default)  <br>
@@ -30,3 +29,5 @@ Code for the model can be found in <code>mnistmodel</code>. File descriptions ar
 <p align="center">
   <img src="figures/gsm.png" width="600">
 </p>
+
+Code for the model can be found in <code>samplingmodel</code>. Additionally, the [python version of CIFAR-10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html) should be download and extracted to a folder called <code>CIFAR-10</code>. File descriptions are provided below.    <br>
