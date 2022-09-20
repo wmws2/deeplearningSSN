@@ -57,7 +57,7 @@ File descriptions are provided below.    <br>
 
 ```
 @inproceedings{soo-2022-stablessn,
- author = {Soo, Wayne W.M. and Lengyel, Mate},
+ author = {Soo, Wayne W.M. and Lengyel, M\'at\'e},
  booktitle = {Advances in Neural Information Processing Systems},
  editor = {tbd},
  pages = {tbd},
