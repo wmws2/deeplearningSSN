@@ -30,4 +30,25 @@ Code for the model can be found in <code>mnistmodel</code>. File descriptions ar
   <img src="figures/gsm.png" width="600">
 </p>
 
-Code for the model can be found in <code>samplingmodel</code>. Additionally, the [python version of CIFAR-10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html) should be download and extracted to a folder called <code>CIFAR-10</code>. File descriptions are provided below.    <br>
+Code for the model can be found in <code>samplingmodel</code>. Additionally, the [python version of CIFAR-10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html) should be download and extracted to a folder called <code>./CIFAR-10/</code>. Additionally, some parameters are generated and stored in <code>./parameters/</code>.
+File descriptions are provided below.    <br>
+
+**Code to be executed**  <br><br>
+<code>gsm_0_cifarprocessing</code> converts CIFAR-10 images into a single numpy binary file  <br>
+<code>gsm_1_optimizefilters</code> optimizes for GSM filters by minimizing fraction of variance unexplained   <br>
+<code>gsm_2_constructbank</code> converts optimized parameters into actual filters  <br>
+<code>gsm_3_initialize</code> computes reasonable initial values of GSM parameters  <br>
+<code>gsm_4_gsmtraining</code> optimizes GSM parameters for maximum likelihood of observing CIFAR-10 images  <br>
+<code>gsm_5_computecov</code> pre-computing some covariance matrices involving matrix inversion using an arbitrary-precision library  <br>
+<code>gsm_6_inference</code> performs inference under GSM and computes posterior means and covariances  <br>
+<code>gsm_7_networkinput</code> converts GSM computations into network inputs and targets  <br><br>
+<code>ssn_1_initialization_targets</code> computes network targets for the small network <br>
+<code>ssn_2_initialization</code> randomly finds a stable network of 1 excitatory and 1 inhibitory neuron   <br>
+<code>ssn_3_initialization_ranking</code> ranks the best initializations with the lowest costs   <br>
+<code>ssn_4_networkgrowth</code> trains the network to perform the inference task by dynamics-neutral growth  <br>
+<code>ssn_5_fullnetwork</code> trains the built network for optimal performance  <br>
+
+**Other files**  <br>
+<code>function_h</code> performs the non-linear input transformation into the SSN  <br>
+<code>function_Tinv</code> computes the matrix of inverse time constants of the SSN  <br>
+<code>main_settings</code> contains all relevant simulation and biological parameters of the model  <br>
