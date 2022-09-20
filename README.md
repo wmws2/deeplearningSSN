@@ -14,13 +14,13 @@ Code for the paper [Stable Training of Stochastic Stabilized Supralinear Network
 
 Code for the model can be found in <code>mnistmodel</code>. File descriptions are provided below.    <br>
 
-**2.1 Code to be executed**  <br>
+**2.1 Code to be executed**  <br><br>
 <code>1_autoencoder</code> compresses MNIST images in order to fit the number of excitatory neurons (set to 50 by default)  <br>
 <code>2_initialization</code> randomly finds a stable network of 1 excitatory and 1 inhibitory neuron   <br>
 <code>3_networkgrowth</code> trains the network to perform the classification task by dynamics-neutral growth  <br>
 <code>4_fullnetwork</code> trains the built network for optimal performance  <br>
   <br>
-**2.2 Other files**  <br>
+**2.2 Other files**  <br><br>
 <code>function_h</code> performs the non-linear input transformation into the SSN  <br>
 <code>function_Tinv</code> computes the matrix of inverse time constants of the SSN  <br>
 <code>main_settings</code> contains all relevant simulation and biological parameters of the model  <br>
@@ -48,7 +48,7 @@ File descriptions are provided below.    <br>
 <code>ssn_4_networkgrowth</code> trains the network to perform the inference task by dynamics-neutral growth  <br>
 <code>ssn_5_fullnetwork</code> trains the built network for optimal performance  <br>
 
-**3.2 Other files**  <br>
+**3.2 Other files**  <br><br>
 <code>function_h</code> performs the non-linear input transformation into the SSN  <br>
 <code>function_Tinv</code> computes the matrix of inverse time constants of the SSN  <br>
 <code>main_settings</code> contains all relevant simulation and biological parameters of the model  <br>
