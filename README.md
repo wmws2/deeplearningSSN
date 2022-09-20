@@ -1,7 +1,7 @@
 <h2 align="center">Stable Training of Stochastic Stabilized Supralinear Networks by Dynamics-Neutral Growth</h2>
 
 ### 1. Overview
-Code for the paper [Stable Training of Stochastic Stabilized Supralinear Networks by Dynamics-Neutral Growth](https://openreview.net/forum?id=znbTxnBPlx) as presented in NeurIPS 2022. The paper presents an introductory model where stochastic stabilized supralinear networks (SSNs) are trained to perform MNIST classification, followed by another model where SSNs are trained to perform sampling-based probabilistic inference under a Gaussian Scale Mixture (GSM). 
+Code for the paper [Stable Training of Stochastic Stabilized Supralinear Networks by Dynamics-Neutral Growth](https://openreview.net/forum?id=znbTxnBPlx) as presented in NeurIPS 2022. The paper presents an introductory model where stochastic stabilized supralinear networks (SSNs) are trained to perform MNIST classification, followed by another model where SSNs are trained to perform sampling-based probabilistic inference under a Gaussian Scale Mixture (GSM). All models are built on Tensorflow 2.9.
 
 <p align="center">
   <img src="figures/algoblock.png" width="600">
