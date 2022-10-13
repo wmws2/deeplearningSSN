@@ -1,7 +1,7 @@
-<h2 align="center">Stable Training of Stochastic Stabilized Supralinear Networks by Dynamics-Neutral Growth</h2>
+<h2 align="center">Training Stochastic Stabilized Supralinear Networks by Dynamics-Neutral Growth</h2>
 
 ### 1. Overview
-Code for the paper [Stable Training of Stochastic Stabilized Supralinear Networks by Dynamics-Neutral Growth](https://openreview.net/forum?id=znbTxnBPlx) as presented in NeurIPS 2022. The paper presents an introductory model where stochastic stabilized supralinear networks (SSNs) are trained to perform MNIST classification, followed by another model where SSNs are trained to perform sampling-based probabilistic inference under a Gaussian Scale Mixture (GSM). All models are built on Tensorflow 2.9.
+Code for the paper [Training Stochastic Stabilized Supralinear Networks by Dynamics-Neutral Growth](https://openreview.net/forum?id=znbTxnBPlx) as presented in NeurIPS 2022. The paper presents an introductory model where stochastic stabilized supralinear networks (SSNs) are trained to perform MNIST classification, followed by another model where SSNs are trained to perform sampling-based probabilistic inference under a Gaussian Scale Mixture (GSM). All models are built on Tensorflow 2.9.
 
 <p align="center">
   <img src="figures/algoblock.png" width="600">
@@ -56,13 +56,13 @@ File descriptions are provided below.    <br>
 ### 4. Citation
 
 ```
-@inproceedings{soo-2022-stablessn,
+@inproceedings{soo2022-stablessn,
  author = {Soo, Wayne W.M. and Lengyel, M\'at\'e},
  booktitle = {Advances in Neural Information Processing Systems},
  editor = {tbd},
  pages = {tbd},
  publisher = {Curran Associates, Inc.},
- title = {Stable Training of Stochastic Stabilized Supralinear Networks by Dynamics-Neutral Growth},
+ title = {Training Stochastic Stabilized Supralinear Networks by Dynamics-Neutral Growth},
  url = {tbd},
  volume = {35},
  year = {2022}
