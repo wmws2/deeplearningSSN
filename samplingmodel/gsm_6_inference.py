@@ -13,9 +13,7 @@ folder = 'rebuttal/'
 
 
 imgs = np.load('training_images.npy')
-imgs = (imgs - np.mean(imgs))/np.std(imgs)*5
 x = imgs
-#x = np.concatenate([x*0.5,x,x*2.0],axis=0)
 A = np.load(folder+'filter_bank_norm.npy').reshape(-1,32*32).T
 C = np.load(folder+'feature_C_norm.npy')
 sigma_x = np.load(folder+'noise_std.npy')
