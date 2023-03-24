@@ -59,11 +59,11 @@ File descriptions are provided below.    <br>
 @inproceedings{soo2022-stablessn,
  author = {Soo, Wayne W.M. and Lengyel, M\'at\'e},
  booktitle = {Advances in Neural Information Processing Systems},
- editor = {tbd},
- pages = {tbd},
+ editor = {S. Koyejo and S. Mohamed and A. Agarwal and D. Belgrave and K. Cho and A. Oh},
+ pages = {29278--29291},
  publisher = {Curran Associates, Inc.},
- title = {Training Stochastic Stabilized Supralinear Networks by Dynamics-Neutral Growth},
- url = {tbd},
+ title = {Training stochastic stabilized supralinear networks by dynamics-neutral growth},
+ url = {[tbd](https://proceedings.neurips.cc/paper_files/paper/2022/file/bc827452450356f9f558f4e4568d553b-Paper-Conference.pdf)},
  volume = {35},
  year = {2022}
 }
