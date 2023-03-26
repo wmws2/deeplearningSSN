@@ -63,7 +63,7 @@ File descriptions are provided below.    <br>
  pages = {29278--29291},
  publisher = {Curran Associates, Inc.},
  title = {Training stochastic stabilized supralinear networks by dynamics-neutral growth},
- url = {[tbd](https://proceedings.neurips.cc/paper_files/paper/2022/file/bc827452450356f9f558f4e4568d553b-Paper-Conference.pdf)},
+ url = {(https://proceedings.neurips.cc/paper_files/paper/2022/file/bc827452450356f9f558f4e4568d553b-Paper-Conference.pdf)},
  volume = {35},
  year = {2022}
 }
