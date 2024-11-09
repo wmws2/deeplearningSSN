@@ -56,7 +56,7 @@ File descriptions are provided below.    <br>
 ### 4. Citation
 
 ```
-@inproceedings{soo2022stablessn,
+@inproceedings{soo2022training,
  author = {Soo, Wayne W.M. and Lengyel, M\'at\'e},
  booktitle = {Advances in Neural Information Processing Systems},
  editor = {S. Koyejo and S. Mohamed and A. Agarwal and D. Belgrave and K. Cho and A. Oh},
